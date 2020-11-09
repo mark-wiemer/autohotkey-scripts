@@ -13,7 +13,7 @@ SetKeyDelay -1
 SetMouseDelay -1
 SetBatchLines -1
 
-F3::
++Pause::
 Run, .\AutoHotkey.exe
 MsgBox,,, AutoHotkey-alpha reloaded, 1
 Return
