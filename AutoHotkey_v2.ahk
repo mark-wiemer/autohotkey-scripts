@@ -7,5 +7,7 @@
 ^LCtrl::
 ^RCtrl::
     {
-        MsgBox("You pressed both Ctrl keys simultaneously, right-o!")
+        MsgBox("AutoHotkey_v2 is running", "T1")
     }
+
+#Include C:\Users\markw\Downloads\Chrome.ahk-1.2\Chrome.ahk

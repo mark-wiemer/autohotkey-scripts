@@ -14,6 +14,5 @@ SetMouseDelay -1
 SetBatchLines -1
 
 +Pause::
-Run, .\AutoHotkey.exe
-MsgBox,,, AutoHotkey-alpha reloaded, 1
+Run, .\AutoHotkey_v2.exe
 Return
