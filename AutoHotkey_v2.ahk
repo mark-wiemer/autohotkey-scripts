@@ -5,7 +5,7 @@
 ^LCtrl::
 ^RCtrl::
     {
-        MsgBox,,, "AutoHotkey_v2 is running in v1", 1
+        MsgBox,,, "AutoHotkey_v2.ahk is running in v1", 1
         vChrome := new Chrome()
         vPage := vChrome.GetPage()
         vPage.Call("Page.navigate", {"url": "https://example.com"})
