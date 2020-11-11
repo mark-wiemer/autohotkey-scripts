@@ -1,0 +1,4 @@
+[submodule "lib/Chrome.ahk"]
+	path = lib/Chrome.ahk
+	url = https://github.com/mark-wiemer/Chrome.ahk
+	branch = stable

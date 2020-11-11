@@ -5,7 +5,14 @@
 ^LCtrl::
 ^RCtrl::
     {
-        MsgBox("AutoHotkey_v2 is running", "T1")
+        MsgBox,,, "AutoHotkey_v2 is running in v1", 1
+        vChrome := new Chrome()
+        vPage := vChrome.GetPage()
+        vPage.Call("Page.navigate", {"url": "https://example.com"})
+        vPage.WaitForLoad()
+        vPage.Evaluate("alert('Hello World!');")
+        vPage.Call("Browser.close")
+        vPage.Disconnect()
     }
 
-#Include C:\Users\markw\Downloads\Chrome.ahk-1.2\Chrome.ahk
+#Include ./lib/Chrome.ahk/Chrome.ahk
