@@ -2,5 +2,6 @@
 **.exe
 **.iobj
 **.ipdb
+**.vscode
 **/Compiler
 license.txt
